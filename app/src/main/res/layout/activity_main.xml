@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="659dp"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PILIH\nTRANSPORTASI"
+        android:textSize="40sp"
+        android:fontFamily="@font/poppins_bold"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <Button
+        android:id="@+id/btn_pesawat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Pesawat"
+        android:textSize="50sp"
+        android:fontFamily="@font/poppins_bold"
+        android:padding="10dp"
+        android:backgroundTint="@color/red"
+        android:drawableLeft="@drawable/baseline_airplanemode_active_24"
+        app:cornerRadius="15dp"/>
+
+    <Button
+        android:id="@+id/btn_kereta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Kereta"
+        android:textSize="50sp"
+        android:fontFamily="@font/poppins_bold"
+        android:padding="10dp"
+        android:backgroundTint="@color/blue"
+        android:drawableLeft="@drawable/baseline_train_24"
+        app:cornerRadius="15dp"/>
+
+    <Button
+        android:id="@+id/btn_bus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Bus"
+        android:textSize="50sp"
+        android:fontFamily="@font/poppins_bold"
+        android:padding="10dp"
+        android:backgroundTint="@color/purple"
+        android:drawableLeft="@drawable/baseline_directions_bus_24"
+        app:cornerRadius="15dp"/>
+
+</LinearLayout>

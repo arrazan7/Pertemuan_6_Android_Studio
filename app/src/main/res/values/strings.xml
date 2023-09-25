@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Pertemuan_6_2</string>
+    <array name="tujuan_pesawat">
+        <item>Yogyakarta - Jakarta</item>
+        <item>Yogyakarta - Bali</item>
+        <item>Yogyakarta - Surabaya</item>
+        <item>Yogyakarta - Medan</item>
+        <item>Yogyakarta - Makassar</item>
+        <item>Yogyakarta - Padang</item>
+        <item>Yogyakarta - Pontianak</item>
+        <item>Yogyakarta - Palembang</item>
+    </array>
+    <array name="tujuan_kereta">
+        <item>Yogyakarta - Probolinggo</item>
+        <item>Yogyakarta - Jombang</item>
+        <item>Yogyakarta - Wates</item>
+        <item>Yogyakarta - Nganjuk</item>
+        <item>Yogyakarta - Madiun</item>
+        <item>Yogyakarta - Pasar Senen</item>
+        <item>Yogyakarta - Purwokerto</item>
+        <item>Yogyakarta - Gombong</item>
+    </array>
+    <array name="tujuan_bus">
+        <item>Yogyakarta - Jakarta</item>
+        <item>Yogyakarta - Bandung</item>
+        <item>Yogyakarta - Surabaya</item>
+        <item>Yogyakarta - Semarang</item>
+        <item>Yogyakarta - Bali</item>
+        <item>Yogyakarta - Malang</item>
+        <item>Yogyakarta - Bogor</item>
+        <item>Yogyakarta - Kudus</item>
+    </array>
+</resources>
